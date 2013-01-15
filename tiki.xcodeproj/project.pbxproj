@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E23817616A5164D003E1EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E23817516A5164D003E1EAC /* UIKit.framework */; };
+		7E23817816A5164D003E1EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E23817716A5164D003E1EAC /* Foundation.framework */; };
+		7E23817A16A5164D003E1EAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E23817916A5164D003E1EAC /* CoreGraphics.framework */; };
+		7E23818016A5164D003E1EAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E23817E16A5164D003E1EAC /* InfoPlist.strings */; };
+		7E23818216A5164D003E1EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23818116A5164D003E1EAC /* main.m */; };
+		7E23818616A5164D003E1EAC /* tikiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23818516A5164D003E1EAC /* tikiAppDelegate.m */; };
+		7E23818816A5164D003E1EAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818716A5164D003E1EAC /* Default.png */; };
+		7E23818A16A5164D003E1EAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818916A5164D003E1EAC /* Default@2x.png */; };
+		7E23818C16A5164D003E1EAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818B16A5164D003E1EAC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E23817116A5164D003E1EAC /* tiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E23817516A5164D003E1EAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E23817716A5164D003E1EAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E23817916A5164D003E1EAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E23817D16A5164D003E1EAC /* tiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tiki-Info.plist"; sourceTree = "<group>"; };
+		7E23817F16A5164D003E1EAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E23818116A5164D003E1EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E23818316A5164D003E1EAC /* tiki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tiki-Prefix.pch"; sourceTree = "<group>"; };
+		7E23818416A5164D003E1EAC /* tikiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tikiAppDelegate.h; sourceTree = "<group>"; };
+		7E23818516A5164D003E1EAC /* tikiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tikiAppDelegate.m; sourceTree = "<group>"; };
+		7E23818716A5164D003E1EAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E23818916A5164D003E1EAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7E23818B16A5164D003E1EAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E23816E16A5164D003E1EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E23817616A5164D003E1EAC /* UIKit.framework in Frameworks */,
+				7E23817816A5164D003E1EAC /* Foundation.framework in Frameworks */,
+				7E23817A16A5164D003E1EAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E23816616A5164D003E1EAC = {
+			isa = PBXGroup;
+			children = (
+				7E23817B16A5164D003E1EAC /* tiki */,
+				7E23817416A5164D003E1EAC /* Frameworks */,
+				7E23817216A5164D003E1EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E23817216A5164D003E1EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E23817116A5164D003E1EAC /* tiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E23817416A5164D003E1EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E23817516A5164D003E1EAC /* UIKit.framework */,
+				7E23817716A5164D003E1EAC /* Foundation.framework */,
+				7E23817916A5164D003E1EAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E23817B16A5164D003E1EAC /* tiki */ = {
+			isa = PBXGroup;
+			children = (
+				7E23818416A5164D003E1EAC /* tikiAppDelegate.h */,
+				7E23818516A5164D003E1EAC /* tikiAppDelegate.m */,
+				7E23817C16A5164D003E1EAC /* Supporting Files */,
+			);
+			path = tiki;
+			sourceTree = "<group>";
+		};
+		7E23817C16A5164D003E1EAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E23817D16A5164D003E1EAC /* tiki-Info.plist */,
+				7E23817E16A5164D003E1EAC /* InfoPlist.strings */,
+				7E23818116A5164D003E1EAC /* main.m */,
+				7E23818316A5164D003E1EAC /* tiki-Prefix.pch */,
+				7E23818716A5164D003E1EAC /* Default.png */,
+				7E23818916A5164D003E1EAC /* Default@2x.png */,
+				7E23818B16A5164D003E1EAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E23817016A5164D003E1EAC /* tiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E23818F16A5164D003E1EAC /* Build configuration list for PBXNativeTarget "tiki" */;
+			buildPhases = (
+				7E23816D16A5164D003E1EAC /* Sources */,
+				7E23816E16A5164D003E1EAC /* Frameworks */,
+				7E23816F16A5164D003E1EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiki;
+			productName = tiki;
+			productReference = 7E23817116A5164D003E1EAC /* tiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E23816816A5164D003E1EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tiki;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alex Lauderdale";
+			};
+			buildConfigurationList = 7E23816B16A5164D003E1EAC /* Build configuration list for PBXProject "tiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E23816616A5164D003E1EAC;
+			productRefGroup = 7E23817216A5164D003E1EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E23817016A5164D003E1EAC /* tiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E23816F16A5164D003E1EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E23818016A5164D003E1EAC /* InfoPlist.strings in Resources */,
+				7E23818816A5164D003E1EAC /* Default.png in Resources */,
+				7E23818A16A5164D003E1EAC /* Default@2x.png in Resources */,
+				7E23818C16A5164D003E1EAC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E23816D16A5164D003E1EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E23818216A5164D003E1EAC /* main.m in Sources */,
+				7E23818616A5164D003E1EAC /* tikiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E23817E16A5164D003E1EAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E23817F16A5164D003E1EAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E23818D16A5164D003E1EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E23818E16A5164D003E1EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E23819016A5164D003E1EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tiki/tiki-Prefix.pch";
+				INFOPLIST_FILE = "tiki/tiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E23819116A5164D003E1EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tiki/tiki-Prefix.pch";
+				INFOPLIST_FILE = "tiki/tiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E23816B16A5164D003E1EAC /* Build configuration list for PBXProject "tiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E23818D16A5164D003E1EAC /* Debug */,
+				7E23818E16A5164D003E1EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E23818F16A5164D003E1EAC /* Build configuration list for PBXNativeTarget "tiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E23819016A5164D003E1EAC /* Debug */,
+				7E23819116A5164D003E1EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E23816816A5164D003E1EAC /* Project object */;
+}

@@ -16,6 +16,13 @@
 		7E23818816A5164D003E1EAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818716A5164D003E1EAC /* Default.png */; };
 		7E23818A16A5164D003E1EAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818916A5164D003E1EAC /* Default@2x.png */; };
 		7E23818C16A5164D003E1EAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23818B16A5164D003E1EAC /* Default-568h@2x.png */; };
+		7E23819516A516B0003E1EAC /* tikiRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23819316A516B0003E1EAC /* tikiRootViewController.m */; };
+		7E23819616A516B0003E1EAC /* tikiRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E23819416A516B0003E1EAC /* tikiRootViewController.xib */; };
+		7E23819D16A524D4003E1EAC /* tikis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E23819C16A524D4003E1EAC /* tikis.plist */; };
+		7E23819F16A525D0003E1EAC /* tikiViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E23819E16A525D0003E1EAC /* tikiViewCell.xib */; };
+		7E2381A216A525F3003E1EAC /* tikiViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2381A116A525F3003E1EAC /* tikiViewCell.m */; };
+		7E2381A616A527DA003E1EAC /* tikiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2381A416A527DA003E1EAC /* tikiDetailViewController.m */; };
+		7E2381A716A527DA003E1EAC /* tikiDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2381A516A527DA003E1EAC /* tikiDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,16 @@
 		7E23818716A5164D003E1EAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7E23818916A5164D003E1EAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7E23818B16A5164D003E1EAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E23819216A516B0003E1EAC /* tikiRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tikiRootViewController.h; sourceTree = "<group>"; };
+		7E23819316A516B0003E1EAC /* tikiRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tikiRootViewController.m; sourceTree = "<group>"; };
+		7E23819416A516B0003E1EAC /* tikiRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tikiRootViewController.xib; sourceTree = "<group>"; };
+		7E23819C16A524D4003E1EAC /* tikis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tikis.plist; sourceTree = "<group>"; };
+		7E23819E16A525D0003E1EAC /* tikiViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tikiViewCell.xib; sourceTree = "<group>"; };
+		7E2381A016A525F3003E1EAC /* tikiViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tikiViewCell.h; sourceTree = "<group>"; };
+		7E2381A116A525F3003E1EAC /* tikiViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tikiViewCell.m; sourceTree = "<group>"; };
+		7E2381A316A527DA003E1EAC /* tikiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tikiDetailViewController.h; sourceTree = "<group>"; };
+		7E2381A416A527DA003E1EAC /* tikiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tikiDetailViewController.m; sourceTree = "<group>"; };
+		7E2381A516A527DA003E1EAC /* tikiDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tikiDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +97,17 @@
 			children = (
 				7E23818416A5164D003E1EAC /* tikiAppDelegate.h */,
 				7E23818516A5164D003E1EAC /* tikiAppDelegate.m */,
+				7E2381A016A525F3003E1EAC /* tikiViewCell.h */,
+				7E2381A116A525F3003E1EAC /* tikiViewCell.m */,
+				7E2381A316A527DA003E1EAC /* tikiDetailViewController.h */,
+				7E2381A416A527DA003E1EAC /* tikiDetailViewController.m */,
+				7E2381A516A527DA003E1EAC /* tikiDetailViewController.xib */,
 				7E23817C16A5164D003E1EAC /* Supporting Files */,
+				7E23819E16A525D0003E1EAC /* tikiViewCell.xib */,
+				7E23819216A516B0003E1EAC /* tikiRootViewController.h */,
+				7E23819316A516B0003E1EAC /* tikiRootViewController.m */,
+				7E23819416A516B0003E1EAC /* tikiRootViewController.xib */,
+				7E23819C16A524D4003E1EAC /* tikis.plist */,
 			);
 			path = tiki;
 			sourceTree = "<group>";
@@ -155,6 +182,10 @@
 				7E23818816A5164D003E1EAC /* Default.png in Resources */,
 				7E23818A16A5164D003E1EAC /* Default@2x.png in Resources */,
 				7E23818C16A5164D003E1EAC /* Default-568h@2x.png in Resources */,
+				7E23819616A516B0003E1EAC /* tikiRootViewController.xib in Resources */,
+				7E23819D16A524D4003E1EAC /* tikis.plist in Resources */,
+				7E23819F16A525D0003E1EAC /* tikiViewCell.xib in Resources */,
+				7E2381A716A527DA003E1EAC /* tikiDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +198,9 @@
 			files = (
 				7E23818216A5164D003E1EAC /* main.m in Sources */,
 				7E23818616A5164D003E1EAC /* tikiAppDelegate.m in Sources */,
+				7E23819516A516B0003E1EAC /* tikiRootViewController.m in Sources */,
+				7E2381A216A525F3003E1EAC /* tikiViewCell.m in Sources */,
+				7E2381A616A527DA003E1EAC /* tikiDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

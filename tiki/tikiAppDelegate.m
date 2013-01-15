@@ -7,8 +7,11 @@
 //
 
 #import "tikiAppDelegate.h"
+#import "tikiRootViewController.h"
 
 @implementation tikiAppDelegate
+
+
 
 - (void)dealloc
 {
@@ -18,11 +21,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UIViewController *rootController =
+    [[tikiRootViewController alloc]
+     initWithNibName:@"tikiRootViewController" bundle:nil];
+    
+    self.navigationController = [[UINavigationController alloc]
+                            initWithRootViewController:rootController];
+    
+    self.window = [[UIWindow alloc]
+                   initWithFrame:[[UIScreen mainScreen] bounds]];
+//    [self.window addSubview:navigationController.view];
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
+    
+    
+ 
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -13,6 +13,8 @@
 @interface tikiRootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) IBOutlet tikiDetailViewController *tikiDetailViewController;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+
 @property (strong, nonatomic) NSString *tikiNameText;
 @property (strong, nonatomic) NSString *tikiPowerText;
 

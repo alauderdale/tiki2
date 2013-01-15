@@ -33,6 +33,8 @@
 
 
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -48,10 +50,14 @@
 
 }
 
-- (void)viewDidUnload {
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
 }
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -99,6 +105,8 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
      animated:YES];
     
     [targetController release];
+    
+
     
 
 
